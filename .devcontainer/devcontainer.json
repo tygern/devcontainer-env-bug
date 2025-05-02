@@ -1,0 +1,8 @@
+{
+  "name": "Devcontainer enbv bug",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "postCreateCommand": "echo ${DEMO_VARIABLE}",
+  "containerEnv": {
+    "DEMO_VARIABLE": "correctbehavioristoshow=thefullenvironmentvariablevalue"
+  }
+}
